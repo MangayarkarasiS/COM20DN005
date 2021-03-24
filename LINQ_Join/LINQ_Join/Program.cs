@@ -23,7 +23,7 @@ namespace LINQ_Join
             }
             Console.ReadLine();
 
-            /* var result = from e in Employee.GetAllEmployees()
+             var result = from e in Employee.GetAllEmployees()
                     join d in Department.GetAllDepartments()
                     on e.DepartmentID equals d.ID
                     select new
@@ -35,7 +35,7 @@ namespace LINQ_Join
 foreach (var employee in result)
 {
     Console.WriteLine(employee.EmployeeName + "\t" + employee.DepartmentName);
-}  */
+}  
         }
     }
 }

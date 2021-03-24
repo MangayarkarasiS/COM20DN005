@@ -8,6 +8,7 @@ namespace LINQ_Join
 {
     class Program
     {
+        // this is my first comment
         static void Main(string[] args)
         {
             var result = Employee.GetAllEmployees().Join(Department.GetAllDepartments(),
